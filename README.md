@@ -8,22 +8,19 @@
     <link rel="apple-touch-icon" href="photo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-
-    <!-- Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
         body {
-            font-family: 'Press Start 2P', cursive, sans-serif;
+            font-family: 'Press Start 2P', cursive;
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #001f3f;
-            color: white;
+            background-color: #001f3f; /* Dark navy background */
+            color: white; /* White text */
         }
 
         h1 {
-            background-color: #003366;
+            background-color: #003366; /* Slightly lighter navy */
             padding: 20px;
             color: white;
         }
@@ -35,7 +32,7 @@
         .class-name {
             font-size: 1.5em;
             margin-bottom: 20px;
-            color: #ffcc00;
+            color: #ffcc00; /* Yellow highlight */
         }
 
         .students-grid {
@@ -48,16 +45,10 @@
         }
 
         .student {
-            background-color: #00274d;
+            background-color: #00274d; /* Slightly lighter navy */
             padding: 15px;
             border-radius: 10px;
             width: 150px;
-        }
-
-        .student img {
-            width: 30px;
-            height: 30px;
-            vertical-align: middle;
         }
 
         .student-name {
@@ -86,7 +77,7 @@
         .button {
             margin-top: 10px;
             padding: 10px 20px;
-            background-color: #ff4136;
+            background-color: #ff4136; /* Red button */
             color: white;
             border: none;
             cursor: pointer;
@@ -180,7 +171,6 @@
                 const studentDiv = document.createElement('div');
                 studentDiv.classList.add('student');
                 studentDiv.innerHTML = `
-                    <img src="photo.png" alt="Heart Icon">
                     <span class="student-name">${student.name}</span>
                 `;
 
