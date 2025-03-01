@@ -8,19 +8,22 @@
     <link rel="apple-touch-icon" href="photo.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Font Import -->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
         body {
-            font-family: 'Press Start 2P', cursive;
+            font-family: 'Press Start 2P', cursive, sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #001f3f; /* Dark navy background */
-            color: white; /* White text */
+            background-color: #001f3f;
+            color: white;
         }
 
         h1 {
-            background-color: #003366; /* Slightly lighter navy */
+            background-color: #003366;
             padding: 20px;
             color: white;
         }
@@ -32,7 +35,7 @@
         .class-name {
             font-size: 1.5em;
             margin-bottom: 20px;
-            color: #ffcc00; /* Yellow highlight */
+            color: #ffcc00;
         }
 
         .students-grid {
@@ -45,7 +48,7 @@
         }
 
         .student {
-            background-color: #00274d; /* Slightly lighter navy */
+            background-color: #00274d;
             padding: 15px;
             border-radius: 10px;
             width: 150px;
@@ -83,7 +86,7 @@
         .button {
             margin-top: 10px;
             padding: 10px 20px;
-            background-color: #ff4136; /* Red button */
+            background-color: #ff4136;
             color: white;
             border: none;
             cursor: pointer;
